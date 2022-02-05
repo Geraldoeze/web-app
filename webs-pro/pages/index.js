@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import HomePage from './Home'
-import Auth from './auth'
 
-export default function Home() {
 
+ const Home = () => {
+  
   return (
     <div className="border-4 ">
       <Head>
@@ -14,7 +13,11 @@ export default function Home() {
       </Head>
 
     <HomePage />
+  
 
     </div>
   )
+
 }
+
+export default Home;

@@ -1,6 +1,7 @@
 import React from "react";
 
 const Transactions = () => {
+    
     return ( 
         <div className="flex h-screen bg-gray-200">
         <div className="w-full max-w-xs m-auto bg-gray-50 rounded p-5">
